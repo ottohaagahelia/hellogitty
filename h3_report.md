@@ -1,3 +1,13 @@
-#H3: Versiohallintaa
+# H3: Versiohallintaa
 
-##a) Niin teen
+## a) Markdown.
+
+## b) Pull First.
+
+## c) Kaikki kirjataan.
+
+## d) Huppis!
+
+## e) Formula.
+
+
