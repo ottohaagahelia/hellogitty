@@ -24,14 +24,20 @@ Tein muutoksia git kansion tiedostoihin Teron antamien marssikäskyjen mukaisest
 
 ## c) Kaikki kirjataan.
 
-Komento 'git log' tulostaa kaikki 'commit message' viestit, joita olen lisännyt jokaisen 'git commit' komennon jälkeen. Komento 'git diff' ei tee mitään git kansiossa, ja kun yritin selvittää mitä se tekee ohjeet olivat positiivisesti hepreaa. Komennolla 'git blame [<options>] [<rev-opts>]' voi tulostaa git kansiossa olevien tiedostonjen muokkaukset, sekä nähdä kuka teki ja milloin nämä muutokset.
+Komento 'git log' tulostaa kaikki 'commit message' viestit, joita olen lisännyt jokaisen 'git commit' komennon jälkeen. Komento 'git diff' ei tee mitään git kansiossa, ja kun yritin selvittää mitä se tekee ohjeet olivat positiivisesti hepreaa. Komennolla 'git blame program.py -f' voi tulostaa git kansiossa olevien tiedostonjen muokkaukset, sekä nähdä kuka teki ja milloin nämä muutokset.
+
+	git log
+	git diff
+	git blame program.py -f
 
 ![Screenshot of git blame](git_commit2.png)
 
 ## d) Huppis!
 
+Muokkasin 'program.py' tiedostoa, ja lisäsin sinne aivan järjettömän vaarallista ja tuhoisaa koodia. Tyhmänä nuorena ehdin jo ajaa 'git add .' komennon. Sen sijaan, että julkaisin tämän virtuaalisen synnin maailmalle, päätin poistaa muutoksen 'git reset --hard' komennolla. Voila vaarallinen koodirivi on poistettu ja maailma saa levätä rauhassa.
 
+![Screenshot of git reset --hard](git_commit3)
 
 ## e) Formula.
 
-
+Kimi Räikkönen on maailmanmestari.
