@@ -36,7 +36,14 @@ Komento 'git log' tulostaa kaikki 'commit message' viestit, joita olen lisännyt
 
 Muokkasin 'program.py' tiedostoa, ja lisäsin sinne aivan järjettömän vaarallista ja tuhoisaa koodia. Tyhmänä nuorena ehdin jo ajaa 'git add .' komennon. Sen sijaan, että julkaisin tämän virtuaalisen synnin maailmalle, päätin poistaa muutoksen 'git reset --hard' komennolla. Voila vaarallinen koodirivi on poistettu ja maailma saa levätä rauhassa.
 
-![Screenshot of git reset --hard](git_commit3)
+	cat program.py 
+	nano program.py
+	cat program.py  
+	git add .
+	git reset --hard
+	cat program.py 
+
+![Screenshot of git reset --hard](git_commit3.png)
 
 ## e) Formula.
 
