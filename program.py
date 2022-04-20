@@ -3,3 +3,4 @@ print("Hello gitty")
 
 tero = "foobar"
 
+foobar = "tero"
