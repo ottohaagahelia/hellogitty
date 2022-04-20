@@ -24,6 +24,8 @@ Tein muutoksia git kansion tiedostoihin Teron antamien marssikäskyjen mukaisest
 
 ## c) Kaikki kirjataan.
 
+Komento 'git log' tulostaa kaikki 'commit message' viestit, joita olen lisännyt jokaisen 'git commit' komennon jälkeen. Komento 'git diff'  
+
 ## d) Huppis!
 
 ## e) Formula.
