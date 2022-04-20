@@ -19,7 +19,7 @@ Loin Github käyttäjä 'ottohaagahelia' oppitunnin aikana. Annoin githubille ju
 
 Tein muutoksia git kansion tiedostoihin Teron antamien marssikäskyjen mukaisesti. Annoin erittäin hyvän kuvauksen (commit message). Lopputulos näkyy ruudunkaappauksesta alla.
 
-
+![Picture of git commit](/hellogitty/git_commit1.png)
 
 
 ## c) Kaikki kirjataan.
