@@ -19,14 +19,18 @@ Loin Github käyttäjä 'ottohaagahelia' oppitunnin aikana. Annoin githubille ju
 
 Tein muutoksia git kansion tiedostoihin Teron antamien marssikäskyjen mukaisesti. Annoin erittäin hyvän kuvauksen (commit message). Lopputulos näkyy ruudunkaappauksesta alla.
 
-![Picture of git commit](git_commit1.png)
+![Screenshot of git commit](git_commit1.png)
 
 
 ## c) Kaikki kirjataan.
 
-Komento 'git log' tulostaa kaikki 'commit message' viestit, joita olen lisännyt jokaisen 'git commit' komennon jälkeen. Komento 'git diff'  
+Komento 'git log' tulostaa kaikki 'commit message' viestit, joita olen lisännyt jokaisen 'git commit' komennon jälkeen. Komento 'git diff' ei tee mitään git kansiossa, ja kun yritin selvittää mitä se tekee ohjeet olivat positiivisesti hepreaa. Komennolla 'git blame [<options>] [<rev-opts>]' voi tulostaa git kansiossa olevien tiedostonjen muokkaukset, sekä nähdä kuka teki ja milloin nämä muutokset.
+
+![Screenshot of git blame](git_commit2.png)
 
 ## d) Huppis!
+
+
 
 ## e) Formula.
 
